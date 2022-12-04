@@ -11,7 +11,7 @@ SECRET_KEY = '_g#b8gr92b+1qtg28r7p!94%)y$b-9)-4k$2di=vhc_1sk=-dp'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.29', '192.168.1.41', '192.168.1.112']
+ALLOWED_HOSTS = ['*']
 
 DATA_UPLOAD_MAX_MEMORY_SIZE = 30242880
 
