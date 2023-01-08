@@ -7,7 +7,7 @@ DATE_INPUT_FORMATS = ['%d-%m-%Y']
 
 SITE_ID = 1
 
-SECRET_KEY = '_g#b8gr92b+1qtg28r7p!94%)y$b-9)-4k$2di=vhc_1sk=-dp'
+SECRET_KEY = ''
 
 DEBUG = True
 
@@ -140,13 +140,7 @@ TEMPLATE_LOADERS = (
 LOGIN_URL = "/account/login/"
 
 #gmail_send/settings.py
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'highpriv@gmail.com'
-EMAIL_HOST_PASSWORD = 'wybyekmcligyxloh' #past the key or password app here
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = 'default from email'
+
 
 
 POSTMAN_AUTO_MODERATE_AS = True
@@ -158,16 +152,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-#DATABASES = {
-#        'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'NAME': 'wuubi',
-#        'USER' : 'canberk2',
-#        'PASSWORD' : '12323345Ab.',
-#        'HOST' : 'localhost',
-#        'PORT' : '5432',
-#        }
-# }
+
 
 DATABASES = {
     'default': {
